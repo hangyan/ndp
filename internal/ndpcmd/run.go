@@ -10,7 +10,7 @@ import (
 	"net/netip"
 	"os"
 
-	"github.com/mdlayher/ndp"
+	"antrea.io/ndp"
 )
 
 var errTargetOp = errors.New("flag '-t' is only valid for neighbor solicitation operation")

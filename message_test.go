@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/mdlayher/ndp"
-	"github.com/mdlayher/ndp/internal/ndptest"
+	"antrea.io/ndp"
+	"antrea.io/ndp/internal/ndptest"
 )
 
 // A messageSub is a sub-test structure for Message marshal/unmarshal tests.

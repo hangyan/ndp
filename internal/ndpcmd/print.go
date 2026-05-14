@@ -7,7 +7,7 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/mdlayher/ndp"
+	"antrea.io/ndp"
 )
 
 func printMessage(ll *log.Logger, m ndp.Message, from netip.Addr) {

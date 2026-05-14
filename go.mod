@@ -1,13 +1,13 @@
-module github.com/mdlayher/ndp
+module antrea.io/ndp
 
-go 1.20
+go 1.26
 
 require (
-	github.com/google/go-cmp v0.6.0
-	golang.org/x/net v0.22.0
+	github.com/google/go-cmp v0.7.0
+	golang.org/x/net v0.54.0
 )
 
 require (
-	golang.org/x/sys v0.18.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/sys v0.44.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 )

@@ -1,4 +1,6 @@
-# ndp [![Test Status](https://github.com/mdlayher/ndp/workflows/Test/badge.svg)](https://github.com/mdlayher/ndp/actions) [![Go Reference](https://pkg.go.dev/badge/github.com/mdlayher/ndp.svg)](https://pkg.go.dev/github.com/mdlayher/ndp) [![Go Report Card](https://goreportcard.com/badge/github.com/mdlayher/ndp)](https://goreportcard.com/report/github.com/mdlayher/ndp)
+> **Note:** This repository is a fork of `github.com/mdlayher/ndp`, which is no longer actively maintained. The canonical maintained fork is at [github.com/antrea-io/ndp](https://github.com/antrea-io/ndp) under the [antrea-io](https://github.com/antrea-io) organization. The Go module path is `antrea.io/ndp`.
+
+# ndp [![Test](https://github.com/antrea-io/ndp/actions/workflows/test.yml/badge.svg)](https://github.com/antrea-io/ndp/actions) [![Go Reference](https://pkg.go.dev/badge/antrea.io/ndp.svg)](https://pkg.go.dev/antrea.io/ndp) [![Go Report Card](https://goreportcard.com/badge/github.com/antrea-io/ndp)](https://goreportcard.com/report/github.com/antrea-io/ndp)
 
 Package `ndp` implements the Neighbor Discovery Protocol, as described in
 [RFC 4861](https://tools.ietf.org/html/rfc4861).  MIT Licensed.
