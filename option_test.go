@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/mdlayher/ndp/internal/ndptest"
+	"antrea.io/ndp/internal/ndptest"
 )
 
 // An optionSub is a sub-test structure for Option marshal/unmarshal tests.

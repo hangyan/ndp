@@ -10,23 +10,17 @@ on:
 
 jobs:
   build:
-    strategy:
-      matrix:
-        go-version: ["1.21", "1.22"]
-        # TODO(mdlayher): tests are failing on macOS but almost all consumers of
-        # this package are Linux. Investigate.
-        os: [ubuntu-latest]
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
 
     steps:
       - name: Set up Go
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v5
         with:
-          go-version: ${{ matrix.go-version }}
+          go-version: stable
         id: go
 
       - name: Check out code into the Go module directory
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Run tests
         run: go test -race -tags gofuzz ./...

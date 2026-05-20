@@ -12,8 +12,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/mdlayher/ndp"
-	"github.com/mdlayher/ndp/internal/ndpcmd"
+	"antrea.io/ndp"
+	"antrea.io/ndp/internal/ndpcmd"
 )
 
 func main() {

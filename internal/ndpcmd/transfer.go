@@ -9,7 +9,7 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/mdlayher/ndp"
+	"antrea.io/ndp"
 )
 
 func sendReceiveLoop(
